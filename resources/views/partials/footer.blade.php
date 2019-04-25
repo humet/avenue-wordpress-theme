@@ -13,6 +13,6 @@
       <div class="footer__copyright">&copy; Avenue{{date("Y")}}</div>
   </div>
   <div class="footer__bottom">
-      UK Registered Provider Number or UKPRN: 10082827
+      UK Registered Provider Number or UKPRN: 10082827 <span>|</span> <a href="mailto:hello@findyouravenue.com">hello@findyouravenue.com</a> 
   </div>
 </footer>
