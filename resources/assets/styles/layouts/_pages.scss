@@ -18,6 +18,10 @@
       .container {
         padding: 0 15px !important;
       }
+
+      p {
+        font-size: 26px;
+      }
     }
 
     &__what-we-do,
@@ -78,6 +82,11 @@
 
     &__join-partner-content {
       padding: 40px 60px 0;
+      font-size: 20px;
+
+      h3 {
+        margin-bottom: 20px;
+      }
     }
 
     &__scroll {

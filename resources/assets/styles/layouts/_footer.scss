@@ -8,6 +8,10 @@
   justify-content: center;
   align-content: center;
 
+  @media only screen and (max-width: 767px) {
+    padding: 20px 0 0;
+  }
+
   &__top,
   &__middle,
   &__bottom {
@@ -29,15 +33,28 @@
   &__bottom {
     background: $pink;
     margin-bottom: 0;
-    padding: 30px 0;
+    padding: 30px 15px;
     color: $white;
+
+    @media only screen and (max-width: 767px) {
+      flex-direction: column;
+    }
 
     span {
       margin: 0 20px;
+      display: block;
+
+      @media only screen and (max-width: 767px) {
+        display: none;
+      }
     }
 
     a {
       color: $white;
+
+      @media only screen and (max-width: 767px) {
+        margin: 10px 0;
+      }
     }
   }
 
