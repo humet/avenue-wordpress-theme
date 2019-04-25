@@ -48,3 +48,19 @@
     opacity: 1;
   }
 }
+
+@keyframes scroll-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.scroll-bounce {
+  animation: scroll-bounce 0.8s;
+  animation-iteration-count: infinite;
+}

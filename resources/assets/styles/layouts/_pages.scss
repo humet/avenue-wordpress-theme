@@ -90,6 +90,8 @@
     }
 
     &__scroll {
+      @extend .scroll-bounce;
+
       background: url(../images/svg/scroll.svg) no-repeat;
       display: block;
       width: 49px;
