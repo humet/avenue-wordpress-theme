@@ -17,7 +17,7 @@
     <section class="pages-home__what-is-avenue">
         <div class="container">
             <h2>What is Avenue</h2>
-            <p>Taking place over 18 months, Avenue combines full-time employment, invaluable industry experience and unrivalled workshops. </p>
+            <p>Taking place over 18 months, Avenue combines full-time employment, invaluable industry experience and  superior life skills workshops. </p>
             <p>But what makes Avenue different is our focus on preparing you for your professional life through real world experiences. Avenue gives you the skills, resilience and guidance you need to succeed in an  ever-changing landscape..</p>
           </div>
           <div class="pages-home__button">Be part of Avenue</div>
