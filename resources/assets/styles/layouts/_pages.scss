@@ -14,7 +14,8 @@
       align-content: center;
     }
 
-    &__intro-content {
+    &__intro-content,
+    &__what-is-avenue {
       .container {
         padding: 0 15px !important;
       }
@@ -25,7 +26,8 @@
     }
 
     &__what-we-do,
-    &__intro-content {
+    &__intro-content,
+    &__what-is-avenue {
       padding: 100px 0;
       text-align: center;
 
@@ -34,7 +36,7 @@
       }
 
       h2 {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
       }
 
       .container {
@@ -134,7 +136,7 @@
       }
     }
 
-    &__what-is-avenue {
+    &__avenue-image {
       max-height: 828px !important;
       height: 100vh;
       width: 100vw;

@@ -13,7 +13,14 @@
       </div>
     <div class="pages-home__button">Find Your Avenue</div>
     </section>
+    <section class="pages-home__avenue-image"></section>
     <section class="pages-home__what-is-avenue">
+        <div class="container">
+            <h2>What is Avenue</h2>
+            <p>Taking place over 18 months, Avenue combines full-time employment, invaluable industry experience and unrivalled workshops. </p>
+            <p>But what makes Avenue different is our focus on preparing you for your professional life through real world experiences. Avenue gives you the skills, resilience and guidance you need to succeed in an  ever-changing landscape..</p>
+          </div>
+          <div class="pages-home__button">Be part of Avenue</div>
     </section>
     <section class="pages-home__what-we-do">
       <h2>Find out where Avenue can take you</h2>
@@ -34,7 +41,7 @@
             </div>
             <div class="pages-home__join-partner-content">
               <h3>Become a partner!</h3>
-              <p>Join other influential businesses and connect with a generation of professionals who are mentally resilient and trained by the best in the industry.</p>
+              <p>Join other influential businesses and connect with a generation of professionals who are resilient in business and trained by the best in the industry.</p>
             </div>
             <div class="pages-home__button">Create an Avenue</div>
           </div>
