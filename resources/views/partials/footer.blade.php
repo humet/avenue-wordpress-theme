@@ -2,8 +2,8 @@
   <div class="footer__top container">
   @php dynamic_sidebar('sidebar-footer') @endphp
   <ul class="footer__social-links">
-      <li><img src="@asset('images/svg/instagram.svg')"></li>
-      <li><img src="@asset('images/svg/twitter.svg')"></li>
+      <li><a href="https://www.instagram.com/findyouravenue_/" target="_blank"><img src="@asset('images/svg/instagram.svg')"></a></li>
+      <li><a href="https://twitter.com/findyouravenue" target="_blank"><img src="@asset('images/svg/twitter.svg')"></a></li>
     </ul>
   </div>
   <div class="footer__middle container">
