@@ -8,7 +8,7 @@
     <a href="#join-the-avenue" class="pages-home__apply-now-button"> Apply Now</a>
     <section class="pages-home__intro-content">
       <div class="container">
-      <h2>Find your avenue</h2>
+      <h2>Find your Avenue</h2>
         <p>Classrooms aren’t for everyone. They don’t have to be. Nowadays the industry moves so fast that only those who are at the forefront of what is possible can keep up. That includes you. </p>
           <p>Avenue is a revolutionary way of learning that connects you with the world’s most influential brands and individuals to prepare you for a career in industry.</p>
       </div>
