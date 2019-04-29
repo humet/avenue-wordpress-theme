@@ -5,20 +5,21 @@
     <section class="pages-home__header">
       <div class="pages-home__scroll"></div>
     </section>
+    <a href="#join-the-avenue" class="pages-home__apply-now-button"> Apply Now</a>
     <section class="pages-home__intro-content">
       <div class="container">
       <h2>Find your avenue</h2>
-        <p>Classrooms aren’t for everyone. They don’t have to be. Nowadays  the industry moves so fast that only those who are at the forefront  of what is possible can keep up. That includes you. </p>
-          <p>Avenue is a revolutionary way of learning that connects you with  the world’s most influential brands and individuals to prepare  you for a career in industry.</p>
+        <p>Classrooms aren’t for everyone. They don’t have to be. Nowadays the industry moves so fast that only those who are at the forefront of what is possible can keep up. That includes you. </p>
+          <p>Avenue is a revolutionary way of learning that connects you with the world’s most influential brands and individuals to prepare you for a career in industry.</p>
       </div>
     </section>
     <section class="pages-home__avenue-image"></section>
     <section class="pages-home__what-is-avenue">
         <div class="container">
             <h2>What is Avenue</h2>
-            <p>Taking place over 18 months, Avenue combines full-time employment, invaluable industry experience and  superior life skills workshops. </p>
-            <p>But what makes Avenue different is our focus on preparing you for your professional life through real world experiences. Avenue gives you the skills, resilience and guidance you need to succeed in an  ever-changing landscape..</p>
-          </div>
+          <p>Taking place over 18 months in Manchester city centre, Avenue combines full-time employment, invaluable industry experience and superior life skills workshops for young people of the North West.</p>
+        <p>But what makes Avenue different is our focus on preparing you for your professional life through real world experiences. Avenue gives you the skills, resilience and guidance you need to succeed in an ever-changing landscape..</p>  
+        </div>
           <div class="pages-home__button">Be part of Avenue</div>
     </section>
     <section class="pages-home__what-we-do">
@@ -44,6 +45,12 @@
             </div>
             <div class="pages-home__button">Create an Avenue</div>
           </div>
+      </div>
+    </section>
+    <section id="join-the-avenue" class="pages-home__form">
+      <div class="container">
+          <h2>Join The Avenue</h2>
+          {{ gravity_form( 1, false, false ) }}
       </div>
     </section>
 </div>
