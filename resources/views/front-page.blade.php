@@ -11,7 +11,6 @@
         <p>Classrooms aren’t for everyone. They don’t have to be. Nowadays  the industry moves so fast that only those who are at the forefront  of what is possible can keep up. That includes you. </p>
           <p>Avenue is a revolutionary way of learning that connects you with  the world’s most influential brands and individuals to prepare  you for a career in industry.</p>
       </div>
-    <div class="pages-home__button">Find Your Avenue</div>
     </section>
     <section class="pages-home__avenue-image"></section>
     <section class="pages-home__what-is-avenue">
