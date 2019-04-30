@@ -298,8 +298,9 @@
 
             label {
               margin-left: 30px;
-              position: absolute;
-              color: $white;
+              position: relative;
+              color: #fff;
+              top: -22px;
             }
           }
         }
