@@ -1,2 +1,5 @@
-@php the_content() @endphp
-{!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+<div class="pages__brands-buttons">
+    <div class="text">
+We don’t give you apprentices. We give you passionate people who are matched to your culture, learning relevant skills to your goals.
+    </div>
+</div>
