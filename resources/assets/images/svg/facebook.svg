@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="42px" viewBox="0 0 23 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 22.0628864 0 22.0628864 42 0 42"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="--Desktop-Footer" transform="translate(-775.000000, -39.000000)">
+            <g id="Group-3" transform="translate(775.615050, 39.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M14.3205885,42 L14.3205885,22.8419394 L20.8255662,22.8419394 L21.7994473,15.3755693 L14.3205885,15.3755693 L14.3205885,10.608622 C14.3205885,8.44693359 14.9277173,6.973864 18.0634867,6.973864 L22.0628864,6.97201038 L22.0628864,0.29416905 C21.3710071,0.203341807 18.9970549,0 16.2351629,0 C10.4689397,0 6.52147781,3.47942485 6.52147781,9.86939943 L6.52147781,15.3755693 L0,15.3755693 L0,22.8419394 L6.52147781,22.8419394 L6.52147781,42 L14.3205885,42 Z" id="Fill-1" fill="#FF0066" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

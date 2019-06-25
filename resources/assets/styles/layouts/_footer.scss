@@ -1,7 +1,7 @@
 .footer {
   background: $black;
   color: $white;
-  padding: 60px 0 0;
+  padding: 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -74,6 +74,10 @@
     }
   }
 
+  &__copyright {
+    text-transform: uppercase;
+  }
+
   .menu-footer-container {
     .nav-footer {
       list-style: none;
@@ -91,6 +95,7 @@
 
       a {
         color: $white;
+        text-transform: uppercase;
       }
     }
   }

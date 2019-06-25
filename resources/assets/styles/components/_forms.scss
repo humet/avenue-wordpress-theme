@@ -17,3 +17,146 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+.form {
+  height: auto;
+  width: 100vw;
+  background: url(../images/homepage/form.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+
+  .container {
+    color: $white;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .gform_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 150px;
+
+    @media only screen and (max-width: 767px) {
+      padding: 0;
+    }
+
+    form {
+      width: 100% !important;
+      color: $black;
+    }
+
+    .hidden_label {
+      label {
+        display: none;
+      }
+    }
+
+    input[type=submit] {
+      margin: 20px !important;
+      color: $white;
+      background-color: $black;
+      border: 0;
+      border-radius: 20px;
+      padding: 10px 30px;
+      text-align: left;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    li {
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 50%;
+
+      @media only screen and (max-width: 767px) {
+        width: 100% !important;
+      }
+
+      .ginput_container {
+        margin: 20px;
+
+        input[type=text] {
+          padding: 10px 20px !important;
+          font-size: 20px;
+          border-radius: 20px;
+          border: 0;
+          outline: 0;
+          width: 100% !important;
+        }
+      }
+
+      &:nth-child(5) {
+        width: 100%;
+
+        select {
+          padding: 10px 20px !important;
+          font-size: 20px !important;
+          border-radius: 20px !important;
+          border: 0 !important;
+          outline: 0 !important;
+          width: 100% !important;
+          height: 50px;
+        }
+      }
+
+      &:nth-child(6) {
+        width: 100%;
+
+        textarea {
+          padding: 20px !important;
+          width: 100% !important;
+          font-size: 20px;
+          border-radius: 20px;
+          border: 0;
+          outline: 0;
+        }
+      }
+
+      &:nth-child(7) {
+        width: 100%;
+        display: block;
+
+        .gfield_label {
+          margin: 20px 20px 0 20px;
+          color: $white;
+        }
+
+        .ginput_container {
+          width: 50%;
+        }
+      }
+
+      &:nth-child(8) {
+        width: 100%;
+        display: block;
+
+        .ginput_container_consent {
+          position: relative;
+          margin: 0 20px;
+        }
+
+        label {
+          margin-left: 30px;
+          position: relative;
+          color: #fff;
+          top: -22px;
+        }
+      }
+    }
+  }
+}

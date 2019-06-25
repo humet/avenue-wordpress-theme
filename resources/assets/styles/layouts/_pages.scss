@@ -1,310 +1,64 @@
 .pages {
-  &-home {
-    background: $white;
+  &__header {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+  }
 
-    &__header {
-      height: 100vh;
+  &__homepage {
+    &-buttons {
+      min-height: 310px;
+      height: 100%;
       width: 100vw;
-      background: url(../images/headers/homepage-header.jpg) no-repeat;
+      background-image: url(../images/homepage/white-section.jpg);
       background-size: cover;
-      background-position: center top;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      align-content: center;
+      padding: 30px;
+      box-sizing: border-box;
     }
 
-    &__intro-content,
-    &__what-is-avenue {
-      .container {
-        padding: 0 15px !important;
-      }
-
-      p {
-        font-size: 26px;
-      }
+    &-quotes {
+      min-height: 800px;
+      height: auto;
+      width: 100vw;
+      background-image: url(../images/homepage/homepage-slider.jpg);
+      background-position: center center;
+      background-size: cover;
     }
 
-    &__apply-now-button {
-      display: none;
-
-      @media only screen and (max-width: 767px) {
-        padding: 20px;
-        border: 3px solid $white;
-        background: #f06;
-        color: $white;
-        text-align: center;
-        display: block;
-        text-transform: uppercase;
-
-        &:hover {
-          color: $white;
-          text-decoration: none;
-        }
-      }
+    &-video {
+      min-height: 600px;
+      height: auto;
+      width: 100vw;
+      background-image: url(../images/homepage/video-home.jpg);
+      background-position: center center;
+      background-size: cover;
     }
 
-    &__what-we-do,
-    &__intro-content,
-    &__what-is-avenue {
-      padding: 100px 0;
+    &-wwww {
+      min-height: 700px;
+      height: 100%;
+      width: 100vw;
+      background-color: $white;
+      padding: 60px;
+      box-sizing: border-box;
       text-align: center;
-
-      @media only screen and (max-width: 450px) {
-        padding: 60px 0;
-      }
-
-      h2 {
-        margin-bottom: 25px;
-      }
-
-      .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-
-        @media only screen and (max-width: 767px) {
-          padding: 0;
-        }
-      }
-    }
-
-    &__join-partner-block {
-      width: calc(50% - 40px);
-      display: flex;
-      flex-direction: column;
-
-      @media only screen and (max-width: 767px) {
-        width: 100%;
-        margin-bottom: 50px;
-      }
-    }
-
-    &__join-partner-image {
-      width: 100%;
-      height: auto;
-      padding: 40px;
-
-      @media only screen and (max-width: 991px) {
-        padding: 20px;
-      }
-
-      @media only screen and (max-width: 767px) {
-        padding: 0;
-      }
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-
-    &__join-partner-content {
-      padding: 40px 60px 0;
-      font-size: 20px;
-
-      h3 {
-        margin-bottom: 20px;
-      }
-    }
-
-    &__scroll {
-      @extend .scroll-bounce;
-
-      background: url(../images/svg/scroll.svg) no-repeat;
-      display: block;
-      width: 49px;
-      height: 56px;
-      margin: 0 auto 100px;
-    }
-
-    &__button {
-      background: $pink;
-      max-width: 270px;
-      width: 100%;
-      height: auto;
-      padding: 10px 20px;
-      margin: 30px auto 0;
-      border-radius: 30px;
-      color: $white;
-      text-transform: uppercase;
-      text-align: left;
-      cursor: pointer;
-      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
 
-      &::before {
-        content: "";
-        background: url(../images/svg/arrow.svg) no-repeat;
+      .what,
+      .why,
+      .where,
+      .when {
         display: block;
-        width: 21px;
-        height: 19px;
-        position: absolute;
-        right: 30px;
-      }
-
-      &:hover {
-        &::before {
-          @extend .bounce-left;
-        }
-      }
-    }
-
-    &__avenue-image {
-      height: 100vh;
-      width: 100vw;
-      background: url(../images/homepage/this-is-the-sign.jpg) no-repeat;
-      background-size: cover;
-      background-position: center center;
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__form {
-      height: auto;
-      width: 100vw;
-      background: url(../images/homepage/form.jpg) no-repeat;
-      background-size: cover;
-      background-position: center center;
-      display: flex;
-      flex-direction: column;
-      padding: 100px 0;
-
-      .container {
-        color: $white;
-      }
-
-      h2 {
-        margin-bottom: 25px;
-        text-align: center;
-      }
-
-      .gform_wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        padding: 0 150px;
-
-        @media only screen and (max-width: 767px) {
-          padding: 0;
-        }
-
-        form {
-          width: 100% !important;
-          color: $black;
-        }
-
-        .hidden_label {
-          label {
-            display: none;
-          }
-        }
-
-        input[type=submit] {
-          margin: 20px !important;
-          color: $white;
-          background-color: $black;
-          border: 0;
-          border-radius: 20px;
-          padding: 10px 30px;
-          text-align: left;
-        }
-
-        ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
-
-        li {
-          padding: 0 !important;
-          margin: 0 !important;
-          width: 50%;
-
-          @media only screen and (max-width: 767px) {
-            width: 100% !important;
-          }
-
-          .ginput_container {
-            margin: 20px;
-
-            input[type=text] {
-              padding: 10px 20px !important;
-              font-size: 20px;
-              border-radius: 20px;
-              border: 0;
-              outline: 0;
-              width: 100% !important;
-            }
-          }
-
-          &:nth-child(5) {
-            width: 100%;
-
-            select {
-              padding: 10px 20px !important;
-              font-size: 20px !important;
-              border-radius: 20px !important;
-              border: 0 !important;
-              outline: 0 !important;
-              width: 100% !important;
-              height: 50px;
-            }
-          }
-
-          &:nth-child(6) {
-            width: 100%;
-
-            textarea {
-              padding: 20px !important;
-              width: 100% !important;
-              font-size: 20px;
-              border-radius: 20px;
-              border: 0;
-              outline: 0;
-            }
-          }
-
-          &:nth-child(7) {
-            width: 100%;
-            display: block;
-
-            .gfield_label {
-              margin: 20px 20px 0 20px;
-              color: $white;
-            }
-
-            .ginput_container {
-              width: 50%;
-            }
-          }
-
-          &:nth-child(8) {
-            width: 100%;
-            display: block;
-
-            .ginput_container_consent {
-              position: relative;
-              margin: 0 20px;
-            }
-
-            label {
-              margin-left: 30px;
-              position: relative;
-              color: #fff;
-              top: -22px;
-            }
-          }
-        }
+        margin: 0 auto 30px;
+        max-width: 600px;
+        width: 100%;
       }
     }
   }
