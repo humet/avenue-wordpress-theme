@@ -12,6 +12,15 @@
     box-sizing: border-box;
     text-align: center;
     color: $white;
+
+    h1 {
+      font-family: "poppinsregular", sans-serif;
+      font-size: 60px;
+
+      span {
+        font-family: "poppinsbold", sans-serif;
+      }
+    }
   }
 
   &__homepage {
@@ -128,6 +137,16 @@
         font-family: "poppinsregular", sans-serif;
       }
     }
+
+    &-form {
+      height: auto;
+      width: 100vw;
+      background-image: url(../images/brands/form.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 60px 30px;
+      box-sizing: border-box;
+    }
   }
 
   &__contact {
@@ -139,12 +158,12 @@
     }
 
     &-form {
-      min-height: 100vh;
+      height: auto;
       width: 100vw;
       background-image: url(../images/contact/form.jpg);
       background-position: center center;
       background-size: cover;
-      padding: 30px;
+      padding: 60px 30px;
       box-sizing: border-box;
     }
   }
