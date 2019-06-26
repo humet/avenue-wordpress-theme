@@ -18,9 +18,21 @@
       flex-direction: row;
       justify-content: space-between;
 
-      li a {
-        color: $white;
-        text-transform: uppercase;
+      li {
+        a {
+          color: $white;
+          text-transform: uppercase;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        &:hover,
+        &.current-menu-item {
+          font-family: "poppinsbold", sans-serif;
+          text-decoration: none;
+        }
       }
     }
   }

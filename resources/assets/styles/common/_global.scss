@@ -152,6 +152,11 @@
   font-style: normal;
 }
 
+.body {
+  font-family: "poppinsregular", sans-serif;
+  font-size: 25px;
+}
+
 .wrap.container {
   width: 100% !important;
   max-width: 100% !important;
@@ -162,4 +167,22 @@
     padding: 0 !important;
     margin: 0 !important;
   }
+}
+
+.container {
+  margin: 0 auto !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
