@@ -137,5 +137,15 @@
       padding: 30px;
       box-sizing: border-box;
     }
+
+    &-form {
+      min-height: 100vh;
+      width: 100vw;
+      background-image: url(../images/contact/form.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 30px;
+      box-sizing: border-box;
+    }
   }
 }
