@@ -149,6 +149,23 @@
     }
   }
 
+  &__team {
+    &-profile {
+      height: auto;
+      width: 100vw;
+    }
+
+    &-photo {
+      width: 50%;
+      display: block;
+    }
+
+    &-content {
+      width: 50%;
+      display: block;
+    }
+  }
+
   &__contact {
     &-buttons {
       min-height: auto;
