@@ -41,6 +41,39 @@
       background-image: url(../images/homepage/homepage-slider.jpg);
       background-position: center center;
       background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .quotes-block {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .quote {
+        font-size: 38px;
+        color: $white;
+        font-family: "poppinsbold", sans-serif;
+        line-height: 50px;
+        display: none;
+        position: relative;
+
+        span {
+          font-size: 22px;
+          color: $white;
+          font-family: "poppinsregular", sans-serif;
+          line-height: 50px;
+          margin-top: 40px;
+          display: block;
+          text-align: right;
+        }
+
+        &:first-child {
+          display: block;
+        }
+      }
     }
 
     &-video {
@@ -75,6 +108,16 @@
         font-size: 24px;
         font-family: "poppinsregular", sans-serif;
       }
+    }
+
+    &-form {
+      height: auto;
+      width: 100vw;
+      background-image: url(../images/brands/form.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 60px 30px;
+      box-sizing: border-box;
     }
   }
 
@@ -158,11 +201,18 @@
     &-photo {
       width: 50%;
       display: block;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
 
     &-content {
       width: 50%;
       display: block;
+      padding: 100px;
+      box-sizing: border-box;
     }
   }
 

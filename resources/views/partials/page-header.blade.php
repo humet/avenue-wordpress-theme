@@ -7,6 +7,8 @@
     <h1><span>Contact</span></h1>
   @elseif( is_404() )
   <h1>Oh No!</h1>
+  @elseif( is_front_page() )
+  
   @else 
   <h1>{!! App::title() !!}</h1>
   @endif

@@ -7,6 +7,7 @@
     @include('partials.content-homepage-quotes')
     @include('partials.content-homepage-video')
     @include('partials.content-homepage-what-why-where-when')
+    @include('partials.content-homepage-join-avenue-form')
   @endwhile
 @endsection
 
