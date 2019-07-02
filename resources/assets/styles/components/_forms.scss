@@ -8,10 +8,10 @@ form {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 0 150px;
+    padding: 0;
 
-    @media only screen and (max-width: 767px) {
-      padding: 0;
+    @media only screen and (min-width: 768px) {
+      padding: 0 60px;
     }
 
     form {
@@ -110,26 +110,14 @@ form {
   }
 
   .gform_footer {
-    input[type=submit] {
+    .gform_button {
       @extend .btn;
 
-      background-color: $black;
-      max-width: 150px;
+      max-width: 256px;
       margin: 0 auto;
       position: relative;
       text-align: center;
-      justify-content: center;
-
-      &::before {
-        content: "";
-        background: url(../images/svg/arrow.svg) no-repeat center center;
-        height: 19px;
-        width: 27px;
-        display: block;
-        position: absolute;
-        top: 13px;
-        right: 25px;
-      }
+      background: $black url(../images/svg/arrow.svg) no-repeat 220px center;
     }
   }
 }
