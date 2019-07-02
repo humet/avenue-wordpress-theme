@@ -1,43 +1,9 @@
-/** Search form */
-.search-form {
-  @extend .form-inline;
-}
-
-.search-form label {
-  @extend .form-group;
-
-  font-weight: normal;
-}
-
-.search-form .search-field {
-  @extend .form-control;
-}
-
-.search-form .search-submit {
-  @extend .btn;
-  @extend .btn-secondary;
-}
-
-.form {
+form {
   height: auto;
-  width: 100vw;
-  background: url(../images/homepage/form.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
 
-  .container {
-    color: $white;
-  }
-
-  h2 {
-    margin-bottom: 25px;
-    text-align: center;
-  }
-
-  .gform_wrapper {
+  .gform_body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,16 +23,6 @@
       label {
         display: none;
       }
-    }
-
-    input[type=submit] {
-      margin: 20px !important;
-      color: $white;
-      background-color: $black;
-      border: 0;
-      border-radius: 20px;
-      padding: 10px 30px;
-      text-align: left;
     }
 
     ul {
@@ -100,21 +56,11 @@
         }
       }
 
-      &:nth-child(5) {
-        width: 100%;
-
-        select {
-          padding: 10px 20px !important;
-          font-size: 20px !important;
-          border-radius: 20px !important;
-          border: 0 !important;
-          outline: 0 !important;
-          width: 100% !important;
-          height: 50px;
-        }
-      }
-
-      &:nth-child(6) {
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9) {
         width: 100%;
 
         textarea {
@@ -127,35 +73,32 @@
         }
       }
 
-      &:nth-child(7) {
-        width: 100%;
-        display: block;
-
-        .gfield_label {
-          margin: 20px 20px 0 20px;
-          color: $white;
-        }
-
-        .ginput_container {
-          width: 50%;
+      &:nth-child(8) {
+        label {
+          margin-left: 20px;
         }
       }
+    }
+  }
 
-      &:nth-child(8) {
-        width: 100%;
+  .gform_footer {
+    input[type=submit] {
+      @extend .btn;
+
+      background-color: $black;
+      max-width: 265px;
+      margin: 0 auto;
+      position: relative;
+
+      &::after {
+        content: "";
+        background: url(../images/svg/arrow.svg) no-repeat center center;
+        height: 19px;
+        width: 27px;
         display: block;
-
-        .ginput_container_consent {
-          position: relative;
-          margin: 0 20px;
-        }
-
-        label {
-          margin-left: 30px;
-          position: relative;
-          color: #fff;
-          top: -22px;
-        }
+        position: absolute;
+        top: 13px;
+        right: 25px;
       }
     }
   }

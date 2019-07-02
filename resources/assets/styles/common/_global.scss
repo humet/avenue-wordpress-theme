@@ -182,6 +182,14 @@
 
   &.reverse {
     flex-direction: row-reverse;
+
+    h2 {
+      text-align: right;
+    }
+
+    .text {
+      text-align: right;
+    }
   }
 }
 
