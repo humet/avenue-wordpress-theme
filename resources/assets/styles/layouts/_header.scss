@@ -9,9 +9,11 @@
   .nav-primary {
     background: rgba($pink, 0.5);
     height: 59px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
 
     .nav {
       display: flex;
@@ -33,6 +35,16 @@
           text-decoration: none;
         }
       }
+    }
+  }
+
+  &-bottom {
+    margin-top: 100px;
+    display: flex;
+    width: 100vw;
+
+    .brand {
+      float: right;
     }
   }
 }
