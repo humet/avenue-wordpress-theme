@@ -113,11 +113,11 @@ form {
     .gform_button {
       @extend .btn;
 
-      max-width: 256px;
+      max-width: 199px;
       margin: 0 auto;
       position: relative;
       text-align: center;
-      background: $black url(../images/svg/arrow.svg) no-repeat 220px center;
+      background: $black url(../images/svg/arrow.svg) no-repeat 150px center;
     }
   }
 }
