@@ -7,8 +7,18 @@
       </div>
     </nav>
     <div class="header-bottom">
-      <div class="container">
+      <div class="container relative">
       <a class="brand" href="{{ home_url('/') }}"><img src="@asset('images/svg/logo.svg')"/></a>
+      <div class="mobile-nav-button">
+          <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
     </div>
 </header>

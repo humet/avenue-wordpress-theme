@@ -6,11 +6,20 @@ export default {
 
     $('.animated-words').slick({
       infinite: true,
-      speed: 500,
       fade: true,
       cssEase: 'linear',
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 5000,
+      arrows: false,
+    });
+
+    $('.quotes-block').slick({
+      infinite: true,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 10000,
+      arrows: false,
     });
       
   },

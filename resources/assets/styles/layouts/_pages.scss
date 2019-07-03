@@ -133,7 +133,7 @@
         color: $white;
         font-family: "poppinsbold", sans-serif;
         line-height: 50px;
-        display: none;
+        display: block;
         position: relative;
 
         span {
@@ -144,10 +144,6 @@
           margin-top: 40px;
           display: block;
           text-align: right;
-        }
-
-        &:first-child {
-          display: block;
         }
       }
     }

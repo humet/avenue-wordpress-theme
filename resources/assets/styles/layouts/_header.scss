@@ -1,50 +1,81 @@
 .header {
+  position: fixed;
   width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
-  position: absolute;
   top: 0;
+  padding-bottom: 20px;
+  z-index: 1000;
+  background: rgba($pink, 0.9);
+
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+    background: unset;
+  }
 
   .nav-primary {
-    background: rgba($pink, 0.5);
-    height: 59px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
+    display: none;
 
-    .nav {
+    @media only screen and (min-width: 768px) {
+      background: rgba($pink, 0.5);
+      height: 59px;
+      width: 100vw;
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
+      position: fixed;
 
-      li {
-        a {
-          color: $white;
-          text-transform: uppercase;
+      .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-          &:hover {
+        li {
+          a {
+            color: $white;
+            text-transform: uppercase;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+
+          &.current-menu-item {
+            font-family: "poppinsbold", sans-serif;
             text-decoration: none;
           }
-        }
-
-        &.current-menu-item {
-          font-family: "poppinsbold", sans-serif;
-          text-decoration: none;
         }
       }
     }
   }
 
   &-bottom {
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
     width: 100vw;
 
+    @media only screen and (min-width: 768px) {
+      margin-top: 100px;
+    }
+
     .brand {
-      float: right;
+      float: left;
+
+      @media only screen and (min-width: 768px) {
+        float: right;
+      }
+    }
+
+    .mobile-nav-button {
+      display: block;
+      top: 20px;
+      position: absolute;
+      right: 15px;
+
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
     }
   }
 }
