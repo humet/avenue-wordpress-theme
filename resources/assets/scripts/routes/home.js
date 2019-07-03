@@ -3,6 +3,15 @@ export default {
     // JavaScript to be fired on the home page
   },
   finalize() {
-    // JavaScript to be fired on the home page, after the init JS
+
+    $('.animated-words').slick({
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+      
   },
 };

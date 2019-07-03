@@ -1,10 +1,10 @@
 <div class="pages__homepage-buttons">
         <div class="container">
                 <div class="animated-words">
-                    <div class="text">NO DEBT</div>
-                    <div class="text">NO CLASSROOMS</div>
-                    <div class="text">RELEVANT LEARNING</div>
-                    <div class="text">WELFARE & LIFE SKILLS</div>
+                    <div class="text"><span>NO</span> DEBT</div>
+                    <div class="text"><span>NO</span> CLASSROOMS</div>
+                    <div class="text"><span>RELEVANT</span> LEARNING</div>
+                    <div class="text"><span>WELFARE</span> & LIFE SKILLS</div>
                 </div>    
             </div>
     <div class="container row">
