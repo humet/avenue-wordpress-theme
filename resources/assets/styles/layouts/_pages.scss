@@ -15,7 +15,11 @@
 
     h1 {
       font-family: "poppinsregular", sans-serif;
-      font-size: 60px;
+      font-size: 30px;
+
+      @media only screen and (min-width: 768px) {
+        font-size: 60px;
+      }
 
       span {
         font-family: "poppinsbold", sans-serif;
@@ -34,7 +38,10 @@
       font-family: "poppinsregular", sans-serif;
       color: $black;
       text-align: center;
-      margin: 60px auto;
+
+      @media only screen and (min-width: 768px) {
+        margin: 60px auto;
+      }
     }
 
     &-form {
@@ -101,7 +108,6 @@
 
   &__homepage {
     &-buttons {
-      min-height: 310px;
       height: 100%;
       width: 100vw;
       background-image: url(../images/homepage/white-section.jpg);
@@ -111,39 +117,59 @@
     }
 
     &-quotes {
-      min-height: 800px;
-      height: auto;
+      min-height: 250px;
       width: 100vw;
-      background-image: url(../images/homepage/homepage-slider.jpg);
+      height: auto;
+      background-image: url(../images/homepage/mobile-quotes.jpg);
       background-position: center center;
       background-size: cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
+      @media only screen and (min-width: 768px) {
+        min-height: 800px;
+        height: auto;
+        background-image: url(../images/homepage/homepage-slider.jpg);
+      }
+
       .quotes-block {
-        width: 50%;
+        width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        @media only screen and (min-width: 768px) {
+          width: 50%;
+        }
       }
 
       .quote {
-        font-size: 38px;
+        font-size: 15px;
         color: $white;
         font-family: "poppinsbold", sans-serif;
-        line-height: 50px;
+        line-height: 20px;
         display: block;
         position: relative;
 
+        @media only screen and (min-width: 768px) {
+          font-size: 38px;
+          line-height: 50px;
+        }
+
         span {
-          font-size: 22px;
+          font-size: 10px;
           color: $white;
           font-family: "poppinsregular", sans-serif;
-          line-height: 50px;
+          line-height: 20px;
           margin-top: 40px;
           display: block;
           text-align: right;
+
+          @media only screen and (min-width: 768px) {
+            font-size: 22px;
+            line-height: 50px;
+          }
         }
       }
     }

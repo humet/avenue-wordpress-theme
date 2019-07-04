@@ -152,9 +152,16 @@
   font-style: normal;
 }
 
-.body {
+body,
+p {
   font-family: "poppinsregular", sans-serif;
-  font-size: 25px;
+  font-size: 16px;
+  line-height: 23px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 25px;
+    line-height: 40px;
+  }
 }
 
 .wrap.container {
@@ -223,6 +230,22 @@
 
 .absolute {
   position: absolute;
+}
+
+.desktop-show {
+  display: none;
+
+  @media only screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.mobile-show {
+  display: block;
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .mobile-nav-button {

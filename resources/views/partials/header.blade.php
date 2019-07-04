@@ -8,7 +8,7 @@
     </nav>
     <div class="header-bottom">
       <div class="container relative">
-      <a class="brand" href="{{ home_url('/') }}"><img src="@asset('images/svg/logo.svg')"/></a>
+      <a class="brand" href="{{ home_url('/') }}"><img class="desktop-show" src="@asset('images/svg/logo.svg')"/><img class="mobile-show" src="@asset('images/svg/logo-white.svg')"/></a>
       <div class="mobile-nav-button">
           <div id="nav-icon2">
             <span></span>
