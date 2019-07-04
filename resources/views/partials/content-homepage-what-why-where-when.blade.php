@@ -1,5 +1,4 @@
 <div class="pages__homepage-wwww">
-     <div class="name">- Jason Fisher, Group Director of Video</div>
             <div class="what">
                 <h2>What?</h2>
                 An 18-month programme that gets you a level 3 Digital Marketing Qualification. It’s free, in fact, you get paid to do it. 
