@@ -108,8 +108,7 @@
 
   &__homepage {
     &-buttons {
-      min-height: 310px;
-      height: 100%;
+      height: auto;
       width: 100vw;
       background-image: url(../images/homepage/white-section.jpg);
       background-size: cover;
@@ -326,11 +325,15 @@
       .when {
         display: block;
         padding: 30px;
-        width: 50%;
+        width: 100%;
         box-sizing: border-box;
         font-size: 24px;
         line-height: 40px;
         font-family: "poppinsregular", sans-serif;
+
+        @media only screen and (min-width: 768px) {
+          width: 50%;
+        }
 
         h2 {
           font-family: "poppinsbold", sans-serif;

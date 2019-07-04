@@ -15,6 +15,12 @@
   }
 
   .nav-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
     @media only screen and (min-width: 768px) {
       background: rgba($pink, 0.5);
       height: 59px;
@@ -24,27 +30,56 @@
       justify-content: center;
       position: fixed;
       z-index: 1000;
+    }
 
-      .nav {
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @media only screen and (min-width: 768px) {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+      }
 
-        li {
-          a {
-            color: $white;
-            text-transform: uppercase;
-            font-size: 16px;
+      li {
+        margin: 20px 0 20px 50px;
+        position: relative;
 
-            &:hover {
-              text-decoration: none;
-            }
-          }
+        @media only screen and (min-width: 768px) {
+          margin: unset;
+          text-align: unset;
+        }
 
-          &.current-menu-item {
-            font-family: "poppinsbold", sans-serif;
+        a {
+          color: $white;
+          text-transform: uppercase;
+          font-size: 16px;
+
+          &:hover {
             text-decoration: none;
-            font-size: 16px;
+          }
+        }
+
+        &.current-menu-item {
+          font-family: "poppinsbold", sans-serif;
+          text-decoration: none;
+          font-size: 16px;
+
+          &::after {
+            content: "";
+            background: url(../images/svg/arrow.svg) no-repeat center center;
+            height: 19px;
+            width: 27px;
+            display: block;
+            position: absolute;
+            left: -50px;
+            top: 0;
+
+            @media only screen and (min-width: 768px) {
+              display: none;
+            }
           }
         }
       }

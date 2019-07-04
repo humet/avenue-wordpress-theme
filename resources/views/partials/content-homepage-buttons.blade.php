@@ -7,9 +7,4 @@
                     <div class="text"><span>WELFARE</span> & LIFE SKILLS</div>
                 </div>    
             </div>
-    <div class="container row">
-        <a href="#" class="btn avenue-for-brands">
-                Avenue For Brands
-        </a>
-    </div>
 </div>
