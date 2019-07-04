@@ -152,16 +152,10 @@
   font-style: normal;
 }
 
-body,
-p {
+body {
   font-family: "poppinsregular", sans-serif;
   font-size: 16px;
   line-height: 23px;
-
-  @media only screen and (min-width: 768px) {
-    font-size: 25px;
-    line-height: 40px;
-  }
 }
 
 .wrap.container {
@@ -348,4 +342,44 @@ p {
     left: calc(50% - 5px);
     top: 15px;
   }
+}
+
+.mobile-nav-overlay {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($pink, 0.9);
+  z-index: 10;
+  padding: 50px;
+
+  @media only screen and (min-width: 768px) {
+    position: unset;
+    display: unset;
+    flex-direction: unset;
+    width: unset;
+    height: unset;
+    top: unset;
+    right: unset;
+    bottom: unset;
+    left: unset;
+    background-color: unset;
+    z-index: unset;
+    padding: unset;
+  }
+
+  &.show {
+    display: flex;
+  }
+}
+
+.no-scroll {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }

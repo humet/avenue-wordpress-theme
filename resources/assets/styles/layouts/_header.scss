@@ -15,8 +15,6 @@
   }
 
   .nav-primary {
-    display: none;
-
     @media only screen and (min-width: 768px) {
       background: rgba($pink, 0.5);
       height: 59px;
@@ -36,6 +34,7 @@
           a {
             color: $white;
             text-transform: uppercase;
+            font-size: 16px;
 
             &:hover {
               text-decoration: none;
@@ -45,6 +44,7 @@
           &.current-menu-item {
             font-family: "poppinsbold", sans-serif;
             text-decoration: none;
+            font-size: 16px;
           }
         }
       }
@@ -55,6 +55,7 @@
     margin-top: 20px;
     display: flex;
     width: 100vw;
+    z-index: 1000;
 
     @media only screen and (min-width: 768px) {
       margin-top: 100px;

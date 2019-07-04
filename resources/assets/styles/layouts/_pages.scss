@@ -216,14 +216,24 @@
 
       h2 {
         font-family: "poppinsbold", sans-serif;
-        font-size: 25px;
-        line-height: 40px;
+        font-size: 16px;
+        line-height: 23px;
+
+        @media only screen and (min-width: 768px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
       }
 
       .name {
         font-family: "poppinsregular", sans-serif;
-        font-size: 30px;
-        margin-bottom: 40px;
+        font-size: 20px;
+        margin-bottom: 23px;
+
+        @media only screen and (min-width: 768px) {
+          font-size: 30px;
+          line-height: 40px;
+        }
       }
 
       .what,
@@ -234,8 +244,14 @@
         margin: 0 auto 30px;
         max-width: 600px;
         width: 100%;
-        font-size: 24px;
+        font-size: 16px;
+        line-height: 23px;
         font-family: "poppinsregular", sans-serif;
+
+        @media only screen and (min-width: 768px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
       }
     }
   }
