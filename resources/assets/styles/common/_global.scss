@@ -226,28 +226,10 @@ body {
   position: absolute;
 }
 
-.desktop-show {
-  display: none;
-
-  @media only screen and (min-width: 768px) {
-    display: block;
-  }
-}
-
-.mobile-show {
-  display: block;
-
-  @media only screen and (min-width: 768px) {
-    display: none;
-  }
-}
-
 .mobile-nav-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: 15px;
 
   #nav-icon2 {
     width: 35px;

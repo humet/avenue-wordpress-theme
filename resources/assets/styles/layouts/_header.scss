@@ -5,53 +5,47 @@
   display: flex;
   flex-direction: column;
   top: 0;
-  padding-bottom: 20px;
   z-index: 1000;
   background: rgba($pink, 0.9);
 
-  @media only screen and (min-width: 768px) {
-    position: absolute;
-    background: unset;
-  }
-
-  .nav-primary {
+  .mobile-menu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .brand-mobile {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        display: block;
+        width: 130px;
+      }
+    }
 
     @media only screen and (min-width: 768px) {
-      background: rgba($pink, 0.5);
-      height: 59px;
+      display: none;
+    }
+  }
+
+  .desktop-menu {
+    display: none;
+
+    @media only screen and (min-width: 768px) {
       width: 100vw;
       display: flex;
       flex-direction: column;
       justify-content: center;
       position: fixed;
-      z-index: 1000;
-    }
 
-    .nav {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      @media only screen and (min-width: 768px) {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+      .nav-primary {
+        width: 100%;
+        background: rgba($pink, 0.9);
+        padding: 20px 0;
       }
 
       li {
-        margin: 20px 0 20px 50px;
-        position: relative;
-
-        @media only screen and (min-width: 768px) {
-          margin: unset;
-          text-align: unset;
-        }
-
         a {
           color: $white;
           text-transform: uppercase;
@@ -66,52 +60,57 @@
           font-family: "poppinsbold", sans-serif;
           text-decoration: none;
           font-size: 16px;
-
-          &::after {
-            content: "";
-            background: url(../images/svg/arrow.svg) no-repeat center center;
-            height: 19px;
-            width: 27px;
-            display: block;
-            position: absolute;
-            left: -50px;
-            top: 0;
-
-            @media only screen and (min-width: 768px) {
-              display: none;
-            }
-          }
         }
       }
-    }
-  }
 
-  &-bottom {
-    margin-top: 20px;
-    display: flex;
-    width: 100vw;
-    z-index: 1000;
-
-    @media only screen and (min-width: 768px) {
-      margin-top: 100px;
-    }
-
-    .brand {
-      float: left;
-
-      @media only screen and (min-width: 768px) {
-        float: right;
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
       }
-    }
 
-    .mobile-nav-button {
-      display: block;
-      top: 20px;
-      position: absolute;
-      right: 15px;
+      .menu-left-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 33%;
 
-      @media only screen and (min-width: 768px) {
-        display: none;
+        .nav-left {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+      }
+
+      .menu-right-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 33%;
+
+        .nav-right {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+      }
+
+      .brand-desktop {
+        width: 33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img {
+          display: block;
+          width: 130px;
+        }
       }
     }
   }
