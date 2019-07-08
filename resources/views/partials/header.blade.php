@@ -1,6 +1,6 @@
 <header class="header">
     <div class="mobile-menu">
-        <div class="container">
+        <div class="container row flex-space-between">
         <a class="brand-mobile" href="{{ home_url('/') }}"><img src="@asset('images/svg/logo-white.svg')"/></a>
         <div class="mobile-nav-button">
             <div id="nav-icon2">

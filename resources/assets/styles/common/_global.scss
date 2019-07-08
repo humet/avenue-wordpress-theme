@@ -212,6 +212,10 @@ body {
   }
 }
 
+.flex-space-between {
+  justify-content: space-between;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -234,17 +238,13 @@ body {
 
 .mobile-nav-button {
   display: block;
-  position: absolute;
-  right: 15px;
   z-index: 100;
-  top: 35px;
 
   #nav-icon2 {
     width: 35px;
     height: auto;
     display: block;
     position: relative;
-    top: -18px;
   }
 
   #nav-icon2 span {
@@ -279,12 +279,12 @@ body {
 
   #nav-icon2 span:nth-child(3),
   #nav-icon2 span:nth-child(4) {
-    top: 10px;
+    top: 8px;
   }
 
   #nav-icon2 span:nth-child(5),
   #nav-icon2 span:nth-child(6) {
-    top: 20px;
+    top: 16px;
   }
 
   #nav-icon2.open span:nth-child(1),
