@@ -15,12 +15,45 @@
     padding: 20px 0;
 
     .brand-mobile {
+      width: 130px;
       display: flex;
       flex-direction: row;
+      position: relative;
+      z-index: 100;
 
       img {
         display: block;
         width: 130px;
+      }
+    }
+
+    .nav-primary {
+      .nav-mobile {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      li {
+        padding: 20px 30px;
+
+        a {
+          color: $white;
+          text-transform: uppercase;
+          font-size: 16px;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        &.current-menu-item {
+          font-family: "poppinsbold", sans-serif;
+          text-decoration: none;
+          font-size: 16px;
+          position: relative;
+          padding-left: 30px;
+        }
       }
     }
 
