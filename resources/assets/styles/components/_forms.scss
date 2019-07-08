@@ -3,6 +3,12 @@ form {
   display: flex;
   flex-direction: column;
 
+  .validation_error,
+  .validation_message {
+    text-align: center;
+    color: $white;
+  }
+
   .gform_body {
     display: flex;
     flex-direction: column;
@@ -58,6 +64,10 @@ form {
 
       input[type=file]::-webkit-file-upload-button {
         visibility: hidden;
+      }
+
+      .gfield_label {
+        display: none;
       }
 
       .gfield_consent_label {
