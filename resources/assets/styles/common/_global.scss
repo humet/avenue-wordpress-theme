@@ -239,6 +239,8 @@ body {
 .mobile-nav-button {
   display: block;
   z-index: 100;
+  position: fixed;
+  right: 15px;
 
   #nav-icon2 {
     width: 35px;
