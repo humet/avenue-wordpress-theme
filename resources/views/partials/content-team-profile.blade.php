@@ -1,5 +1,5 @@
 <div class="pages__team-profile">
-    <div class="row">
+    <div class="row mobile-column">
         <div class="pages__team-photo"><img src="@asset('images/team/img-placeholder.jpg')"/></div>
         <div class="pages__team-content">
             <h2>Name of person<span>Their Job Position</span></h2>
@@ -13,7 +13,7 @@
               </ul>
         </div>
     </div>
-    <div class="row reverse">
+    <div class="row reverse mobile-column">
         <div class="pages__team-photo"><img src="@asset('images/team/img-placeholder.jpg')"/></div>
         <div class="pages__team-content">
         <h2>Name of person<span>Their Job Position</span></h2>
@@ -27,7 +27,7 @@
           </ul>
         </div>
     </div>
-    <div class="row">
+    <div class="row mobile-column">
         <div class="pages__team-photo"><img src="@asset('images/team/ACBee.jpg')"/></div>
         <div class="pages__team-content">
         <h2>AC Bee,<span>Avenue Course Leader</span></h2>
@@ -40,7 +40,7 @@
             <li><a href="#" target="_blank"><img src="@asset('images/svg/twitter.svg')"></a></li>
           </ul>   
     </div>
-    <div class="row reverse">
+    <div class="row reverse mobile-column">
         <div class="pages__team-photo"><img src="@asset('images/team/KieraLawlor.jpg')"/></div>
         <div class="pages__team-content">
         <h2>Kiera Lawlor,<span>Director of Happiness for Social Chain</span></h2>
