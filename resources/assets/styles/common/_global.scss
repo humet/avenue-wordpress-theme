@@ -190,12 +190,23 @@ body {
   &.reverse {
     flex-direction: row-reverse;
 
-    h2 {
+    h2,
+    h3 {
       text-align: right;
     }
 
     .text {
       text-align: right;
+    }
+
+    .pages__team-social-links {
+      justify-content: flex-end;
+
+      li {
+        &:last-child {
+          margin-right: 0;
+        }
+      }
     }
   }
 }
