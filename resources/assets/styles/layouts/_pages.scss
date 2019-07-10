@@ -83,16 +83,15 @@
 
     &-photo {
       width: 100%;
+      min-height: 80vh;
       display: block;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
 
       @media only screen and (min-width: 768px) {
         width: 50%;
         display: block;
-      }
-
-      img {
-        width: 100%;
-        height: auto;
       }
     }
 
@@ -143,7 +142,7 @@
 
       @media only screen and (min-width: 1025px) {
         width: 50%;
-        padding: 0 100px;
+        padding: 100px;
       }
 
       h2 {
