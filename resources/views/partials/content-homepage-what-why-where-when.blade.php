@@ -1,4 +1,5 @@
 <div class="pages__homepage-wwww">
+    <div class="container">
             <div class="what">
                 <h2>What?</h2>
                 An 18-month programme that gets you a level 3 Digital Marketing Qualification. It’s free, in fact, you get paid to do it. 
@@ -16,4 +17,5 @@
                 The launch date for Team 1:  19th August 2010.
                 The launch date for Team 2: TBC
             </div>
+    </div>
     </div>
