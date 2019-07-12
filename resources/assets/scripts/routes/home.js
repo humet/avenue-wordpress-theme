@@ -3,6 +3,24 @@ export default {
     // JavaScript to be fired on the home page
   },
   finalize() {
-    // JavaScript to be fired on the home page, after the init JS
+
+    $('.animated-words').slick({
+      infinite: true,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+    });
+
+    $('.quotes-block').slick({
+      infinite: true,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 10000,
+      arrows: false,
+    });
+      
   },
 };

@@ -1,3 +1,163 @@
+
+@font-face {
+  font-family: "poppins_blackregular";
+  src:
+    url("../fonts/poppins-black-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_blackitalic";
+  src:
+    url("../fonts/poppins-blackitalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-blackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsbold";
+  src:
+    url("../fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsbold_italic";
+  src:
+    url("../fonts/poppins-bolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_extraboldregular";
+  src:
+    url("../fonts/poppins-extrabold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_extrabolditalic";
+  src:
+    url("../fonts/poppins-extrabolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-extrabolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_extralightregular";
+  src:
+    url("../fonts/poppins-extralight-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_extralightitalic";
+  src:
+    url("../fonts/poppins-extralightitalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-extralightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsitalic";
+  src:
+    url("../fonts/poppins-italic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_lightregular";
+  src:
+    url("../fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_lightitalic";
+  src:
+    url("../fonts/poppins-lightitalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-lightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_mediumregular";
+  src:
+    url("../fonts/poppins-medium-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  src:
+    url("../fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_semiboldregular";
+  src:
+    url("../fonts/poppins-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_semibolditalic";
+  src:
+    url("../fonts/poppins-semibolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-semibolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_thinregular";
+  src:
+    url("../fonts/poppins-thin-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins_thinitalic";
+  src:
+    url("../fonts/poppins-thinitalic-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-thinitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "poppinsregular", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
 .wrap.container {
   width: 100% !important;
   max-width: 100% !important;
@@ -8,4 +168,236 @@
     padding: 0 !important;
     margin: 0 !important;
   }
+}
+
+.container {
+  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+
+    &.reverse {
+      flex-direction: row-reverse;
+
+      h2,
+      h3 {
+        text-align: right;
+      }
+
+      .text {
+        text-align: right;
+      }
+
+      .pages__team-social-links {
+        justify-content: flex-end;
+
+        li {
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+
+  &.reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.mobile-nav-button {
+  display: block;
+  z-index: 100;
+  position: fixed;
+  right: 15px;
+
+  #nav-icon2 {
+    width: 35px;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+
+  #nav-icon2 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background: $white;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+  #nav-icon2 span:nth-child(even) {
+    left: 50%;
+  }
+
+  #nav-icon2 span:nth-child(odd) {
+    left: 0;
+  }
+
+  #nav-icon2 span:nth-child(1),
+  #nav-icon2 span:nth-child(2) {
+    top: 0;
+  }
+
+  #nav-icon2 span:nth-child(3),
+  #nav-icon2 span:nth-child(4) {
+    top: 8px;
+  }
+
+  #nav-icon2 span:nth-child(5),
+  #nav-icon2 span:nth-child(6) {
+    top: 16px;
+  }
+
+  #nav-icon2.open span:nth-child(1),
+  #nav-icon2.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #nav-icon2.open span:nth-child(2),
+  #nav-icon2.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #nav-icon2.open span:nth-child(1) {
+    left: 5px;
+    top: 7px;
+  }
+
+  #nav-icon2.open span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 7px;
+  }
+
+  #nav-icon2.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+
+  #nav-icon2.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+
+  #nav-icon2.open span:nth-child(5) {
+    left: 5px;
+    top: 15px;
+  }
+
+  #nav-icon2.open span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 15px;
+  }
+}
+
+.mobile-nav-overlay {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($pink, 0.9);
+  z-index: 10;
+  padding: 60px 15px 0;
+
+  @media only screen and (min-width: 768px) {
+    position: unset;
+    display: unset;
+    flex-direction: unset;
+    width: unset;
+    height: unset;
+    top: unset;
+    right: unset;
+    bottom: unset;
+    left: unset;
+    background-color: unset;
+    z-index: unset;
+    padding: unset;
+  }
+
+  &.show {
+    display: flex;
+  }
+}
+
+.no-scroll {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }

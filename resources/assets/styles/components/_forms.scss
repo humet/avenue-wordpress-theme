@@ -1,19 +1,138 @@
-/** Search form */
-.search-form {
-  @extend .form-inline;
-}
+form {
+  height: auto;
+  display: flex;
+  flex-direction: column;
 
-.search-form label {
-  @extend .form-group;
+  .validation_error,
+  .validation_message {
+    text-align: center;
+    color: $white;
+  }
 
-  font-weight: normal;
-}
+  .gform_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
 
-.search-form .search-field {
-  @extend .form-control;
-}
+    @media only screen and (min-width: 768px) {
+      padding: 0 60px;
+    }
 
-.search-form .search-submit {
-  @extend .btn;
-  @extend .btn-secondary;
+    form {
+      width: 100% !important;
+      color: $black;
+    }
+
+    .hidden_label {
+      label {
+        display: none;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    li {
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 50%;
+
+      @media only screen and (max-width: 767px) {
+        width: 100% !important;
+      }
+
+      .ginput_container {
+        margin: 20px;
+
+        input[type=text] {
+          padding: 10px 20px !important;
+          font-size: 20px;
+          border-radius: 20px;
+          border: 0;
+          outline: 0;
+          width: 100% !important;
+        }
+      }
+
+      input[type=file]::-webkit-file-upload-button {
+        visibility: hidden;
+      }
+
+      .gfield_label {
+        display: none;
+      }
+
+      .gfield_consent_label {
+        margin-left: 30px;
+        color: $white;
+      }
+
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9) {
+        width: 100%;
+
+        textarea {
+          padding: 20px !important;
+          width: 100% !important;
+          font-size: 20px;
+          border-radius: 20px;
+          border: 0;
+          outline: 0;
+        }
+
+        input[type=file] {
+          @extend .btn;
+
+          background: $light-grey;
+          margin: 0;
+          width: 100%;
+          cursor: pointer;
+          padding-left: 35px;
+          position: relative;
+
+          &::before {
+            content: " CHOOSE FILE";
+            margin-right: 30px;
+            color: $white;
+            position: absolute;
+            left: 25px;
+          }
+
+          &::after {
+            content: "";
+            background: url(../images/svg/paper-clip.svg) no-repeat center center;
+            height: 19px;
+            width: 27px;
+            display: block;
+            position: absolute;
+            top: 13px;
+            right: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .gform_footer {
+    .gform_button {
+      @extend .btn;
+
+      max-width: 199px;
+      margin: 0 auto;
+      position: relative;
+      text-align: center;
+      background: $black url(../images/svg/arrow.svg) no-repeat 150px center;
+    }
+  }
 }

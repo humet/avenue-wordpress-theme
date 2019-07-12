@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/theme/avenue",
+  "publicPath": "/wp-content/themes/avenue",
   "devUrl": "http://avenue.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",

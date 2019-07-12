@@ -1,7 +1,7 @@
 .footer {
   background: $black;
   color: $white;
-  padding: 60px 0 0;
+  padding: 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -19,8 +19,8 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin: 20px auto;
     width: 100%;
+    padding: 20px;
   }
 
   &__middle {
@@ -31,9 +31,8 @@
   }
 
   &__bottom {
-    background: $pink;
+    background: $light-grey;
     margin-bottom: 0;
-    padding: 30px 15px;
     color: $white;
 
     @media only screen and (max-width: 767px) {
@@ -70,8 +69,21 @@
 
     li {
       display: inline-flex;
-      margin: 0 20px;
+      margin: 0 8px;
+
+      @media only screen and (min-width: 768px) {
+        margin: 0 15px;
+      }
     }
+
+    img {
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  &__copyright {
+    text-transform: uppercase;
   }
 
   .menu-footer-container {
@@ -91,6 +103,7 @@
 
       a {
         color: $white;
+        text-transform: uppercase;
       }
     }
   }

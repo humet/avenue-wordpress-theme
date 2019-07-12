@@ -1,0 +1,13 @@
+{{--
+  Template Name: Contact Template
+--}}
+
+@extends('layouts.app')
+
+@section('content')
+  @while(have_posts()) @php the_post() @endphp
+    @include('partials.page-header')
+    @include('partials.content-contact-button')
+    @include('partials.content-form-contact')
+  @endwhile
+@endsection
