@@ -14,7 +14,7 @@
             </div>
             <div class="when">
                 <h2>When?</h2>
-                The launch date for Team 1:  19th August 2010.
+                The launch date for Team 1: 2nd September 2019
                 The launch date for Team 2: TBC
             </div>
     </div>
