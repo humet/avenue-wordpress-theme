@@ -9,6 +9,9 @@
   <h1>Oh No!</h1>
   @elseif( is_front_page() )
   <div class="play-button"><img src="@asset('images/svg/play-button.svg')"></div>
+  <div class="video-overlay">
+    <div class="cross"></div>
+  </div>
   @else 
   <h1>{!! App::title() !!}</h1>
   @endif

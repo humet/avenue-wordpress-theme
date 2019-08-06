@@ -21,6 +21,16 @@ export default {
       autoplaySpeed: 5000,
       arrows: false,
     });
+
+    $('.play-button').click(function() {
+      $('.video-overlay').addClass('show');
+      $('body').addClass('no-scroll');
+  });
+
+  $('.video-overlay .cross').click(function() {
+    $('.video-overlay').removeClass('show');
+    $('body').removeClass('no-scroll');
+  });
       
   },
 };
