@@ -11,6 +11,7 @@
   <div class="play-button"><img src="@asset('images/svg/play-button.svg')"></div>
   <div class="video-overlay">
     <div class="cross"></div>
+    <script src="https://cdn.jwplayer.com/players/hGyKChC0-kXJnLDYH.js"></script>
   </div>
   @else 
   <h1>{!! App::title() !!}</h1>

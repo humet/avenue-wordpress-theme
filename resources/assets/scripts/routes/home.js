@@ -27,8 +27,18 @@ export default {
       $('body').addClass('no-scroll');
   });
 
+  $('.play-button-casse-study').click(function() {
+    $('.video-overlay-casse-study').addClass('show');
+    $('body').addClass('no-scroll');
+});
+
   $('.video-overlay .cross').click(function() {
     $('.video-overlay').removeClass('show');
+    $('body').removeClass('no-scroll');
+  });
+
+  $('.video-overlay-casse-study .cross').click(function() {
+    $('.video-overlay-casse-study').removeClass('show');
     $('body').removeClass('no-scroll');
   });
       

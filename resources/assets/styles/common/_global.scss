@@ -406,7 +406,8 @@ body {
   overflow: hidden;
 }
 
-.video-overlay {
+.video-overlay,
+.video-overlay-casse-study {
   position: fixed;
   display: none;
   -webkit-box-orient: vertical;
