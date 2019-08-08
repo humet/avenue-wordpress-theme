@@ -3,14 +3,14 @@
         <div class="pages__team-photo background-top" style="background-image: url(@asset('images/team/steve.jpg'));";></div>
         <div class="pages__team-content">
             <h2>Steven Bartlett<span>CEO, Social Chain</span></h2>
-            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div class="text">26-year-old CEO of the Social Chain Group. Steve is an award-winning entrepreneur with accolades such as Great British Entrepreneur of the Year and Most Influential Agency Figure 2018, Steven also acts as a speaker, investor and content creator, hosting top-charting podcast, ‘The Diary of a CEO’. Previous speaking opportunities have seen Steven speaking at the United Nations, SXSW 2019, VTEX Day alongside Barack Obama, Ted Talk plus many more.</div>
         </div>
     </div>
     <div class="row reverse mobile-column">
         <div class="pages__team-photo background-top" style="background-image: url(@asset('images/team/dom.jpg'))";></div>
         <div class="pages__team-content">
         <h2>Dominic McGreor<span>COO, Social Chain</span></h2>
-        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="text">26-year-old co-founder and COO of The Social Chain Group. Dominic, who has been sober since 2016, works to raise awareness for issues around mental health and has recently run the London Marathon to raised money for CALM. Alongside this, Dominic is also a strong believer in the potential of the North and that more needs to be done to decentralise the U.K from London. </div>
         </div>
     </div>
     <div class="row mobile-column">
