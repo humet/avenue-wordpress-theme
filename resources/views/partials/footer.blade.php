@@ -1,5 +1,5 @@
 <footer class="footer content-info">
-  <div class="footer__top container">
+  {{-- <div class="footer__top container">
   @php dynamic_sidebar('sidebar-footer') @endphp
   <ul class="footer__social-links">
       <li><a href="#" target="_blank"><img src="@asset('images/svg/instagram.svg')"></a></li>
@@ -7,7 +7,7 @@
       <li><a href="#" target="_blank"><img src="@asset('images/svg/facebook.svg')"></a></li>
       <li><a href="#" target="_blank"><img src="@asset('images/svg/twitter.svg')"></a></li>
     </ul>
-  </div>
+  </div> --}}
   <div class="footer__middle container">
       @if (has_nav_menu('footer_navigation'))
       {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav-footer']) !!}
