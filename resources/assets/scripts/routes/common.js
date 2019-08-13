@@ -11,5 +11,15 @@ export default {
       $('body').toggleClass('no-scroll');
   });
 
+  $('.consent-text').click(function() {
+    $('.consent-overlay').addClass('show');
+    $('body').addClass('no-scroll');
+});
+
+$('.consent-overlay .cross').click(function() {
+  $('.consent-overlay').removeClass('show');
+  $('body').removeClass('no-scroll');
+});
+
   },
 };
