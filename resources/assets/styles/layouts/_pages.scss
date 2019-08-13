@@ -28,10 +28,18 @@
     }
 
     .play-button {
+      @extend .btn;
+
+      max-width: 150px;
+      margin: 0 auto;
       position: relative;
-      top: -200px;
+      text-align: left;
+      background: $black;
+      font-family: "poppinsbold", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       cursor: pointer;
-      display: block;
     }
   }
 
@@ -281,6 +289,21 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
+
+      .play-button-casse-study {
+        @extend .btn;
+
+        max-width: 150px;
+        margin: 0 auto;
+        position: relative;
+        text-align: left;
+        background: $black;
+        font-family: "poppinsbold", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+      }
     }
 
     &-form {
