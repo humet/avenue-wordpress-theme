@@ -407,7 +407,8 @@ body {
 }
 
 .video-overlay,
-.video-overlay-casse-study {
+.video-overlay-casse-study,
+.consent-overlay {
   position: fixed;
   display: none;
   -webkit-box-orient: vertical;
@@ -431,6 +432,21 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000;
+}
+
+.consent-box-info {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background: $white;
+  border-radius: 45px;
+  padding: 20px;
+}
+
+.consent-text {
+  display: inline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .show {
