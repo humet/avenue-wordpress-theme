@@ -2,7 +2,7 @@
     <div class="container">
                <div class="what">
                    <h2>What?</h2>
-                   The only course of its kind made to be ever changing by the people that live and breath the digital landscape. 
+                   The only course of its kind made to be ever-changing by the people that live and breath the digital landscape. 
                </div>
                <div class="why">
                    <h2>Why?</h2>

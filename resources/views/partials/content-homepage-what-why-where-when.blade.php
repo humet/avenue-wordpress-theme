@@ -10,7 +10,7 @@
             </div>
             <div class="where">
                 <h2>Where?</h2>
-                One month full-time Intro to Avenue at Social Chain HQ. In businesses 4 days per week, over an 18-month period with the 5th day at Social Chain.
+                One month full-time Intro to Avenue at Social Chain's Manchester office. In businesses 4 days per week, over an 18-month period with the 5th day at Social Chain.
             </div>
             <div class="when">
                 <h2>When?</h2>

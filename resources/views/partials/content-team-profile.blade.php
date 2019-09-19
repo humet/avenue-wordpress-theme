@@ -10,7 +10,7 @@
         <div class="pages__team-photo background-top" style="background-image: url(@asset('images/team/dom.jpg'))";></div>
         <div class="pages__team-content">
         <h2>Dominic McGregor<span>COO, Social Chain</span></h2>
-        <div class="text">26-year-old co-founder and COO of The Social Chain Group. Dominic, who has been sober since 2016, works to raise awareness for issues around mental health and has recently run the London Marathon to raised money for CALM. Alongside this, Dominic is also a strong believer in the potential of the North and that more needs to be done to decentralise the U.K from London. </div>
+        <div class="text">27-year-old co-founder and COO of The Social Chain Group. Dominic, who has been sober since 2016, works to raise awareness for issues around mental health and has recently run the London Marathon to raised money for CALM. Alongside this, Dominic is also a strong believer in the potential of the North and that more needs to be done to decentralise the U.K from London. </div>
         </div>
     </div>
     <div class="row mobile-column">
